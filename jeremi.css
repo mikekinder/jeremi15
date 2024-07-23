@@ -70,7 +70,7 @@ img:hover {
 
 .photos img {
     flex: 1; /* Sorgt dafür, dass die Bilder gleichmäßig verteilt werden */
-    max-width: 10%; /* Verhindert, dass die Bilder zu groß werden */
+    max-width: 20%; /* Verhindert, dass die Bilder zu groß werden */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
