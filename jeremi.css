@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6vw; /* Verwende viewport-basierte Einheiten für responsives Design */
+    font-weight: 500;
+    margin: 0;
+    white-space:initial; /* Verhindert Umbruch */
+    overflow: hidden; /* Verhindert das Abschneiden des Textes */
+    text-overflow: ellipsis; /* Zeigt "..." an, wenn der Text überläuft */
+}
+
+h2 {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw; /* Verwende viewport-basierte Einheiten für responsives Design */
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.image-link {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05); /* Vergrößert das Bild leicht beim Hover */
+}
+
+.photos {
+    display: flex;
+    justify-content: center; /* Zentriert die Bilder im Container */
+    gap: 15px; /* Abstand zwischen den Bildern */
+    margin: 80px 0;
+}
+
+.photos img {
+    max-width: 30%; /* Stellt sicher, dass die Bilder nebeneinander passen */
+    height:fit-content;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#p1 {
+    font-size: 30pt; /* Verwende viewport-basierte Einheiten für responsives Design */
+    margin: 0px;
+    color: #333;
+}
+
+#p2 {
+    font-size: 20pt; /* Verwende viewport-basierte Einheiten für responsives Design */
+    margin: 0px 0;
+    color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
